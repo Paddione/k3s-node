@@ -24,4 +24,4 @@ qm resize 3000 scsi0 32G
 qm template 3000
 
 # Create a new VM from template 3000
-qm clone 3000 300 --name k3s-node1 --full
+qm clone 3000 300 --name k3s-node3 --full
